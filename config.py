@@ -51,15 +51,17 @@ def get_app_icon(icon_data: str):
 #   - Data URL format: ""[REMOVED_BASE64_IMAGE]"..."
 #   - File path: "path/to/image.png"
 GITHUB_APPS = [
-    ("RBPK Automation App", ""[REMOVED_BASE64_IMAGE]"", "https://raw.githubusercontent.com/Ahmad91-9/rbpk-script/main/rbpk.py", False),
-    ("YouTube Downloader Professional", ""[REMOVED_BASE64_IMAGE]"", "youtube_downloader_gui_patched_fixed_corrected.py", True),
-    ("PDF and Word Watermark Remover", ""[REMOVED_BASE64_IMAGE]"", "PDF_word Watermarkremover/prod.py", True),
-    ("PDF OCR for Urdu", ""[REMOVED_BASE64_IMAGE]"","PDFOCR/pdf_urdu_ocr_app.py",True),
-    ("PDF Delete_Erase text", ""[REMOVED_BASE64_IMAGE]"", "https://github.com/Ahmad91-9/cf/blob/main/pageremoverpdf.py", False),
-    ("Spotify Downloader", ""[REMOVED_BASE64_IMAGE]"" , "spotdl_gui_simple.py" , True),
-    ("Archive Downloader", ""[REMOVED_BASE64_IMAGE]"", "archivedownloader.py",True),
-    ("Anime Upscaler", ""[REMOVED_BASE64_IMAGE]"","Anime_Upscaler.py",True),
-        ]
+    ("RBPK Automation App", "[REMOVED_BASE64_IMAGE]", "https://raw.githubusercontent.com/Ahmad91-9/rbpk-script/main/rbpk.py", False),
+    ("YouTube Downloader Professional", "[REMOVED_BASE64_IMAGE]", "youtube_downloader_gui_patched_fixed_corrected.py", True),
+    ("PDF and Word Watermark Remover", "[REMOVED_BASE64_IMAGE]", "PDF_word Watermarkremover/prod.py", True),
+    ("PDF OCR for Urdu", "[REMOVED_BASE64_IMAGE]", "PDFOCR/pdf_urdu_ocr_app.py", True),
+    ("PDF Delete_Erase text", "[REMOVED_BASE64_IMAGE]", "https://github.com/Ahmad91-9/cf/blob/main/pageremoverpdf.py", False),
+    ("Spotify Downloader", "[REMOVED_BASE64_IMAGE]", "spotdl_gui_simple.py", True),
+    ("Archive Downloader", "[REMOVED_BASE64_IMAGE]", "archivedownloader.py", True),
+    ("Anime Upscaler", "[REMOVED_BASE64_IMAGE]", "Anime_Upscaler.py", True),
+]
+
 
 # Keep track of temporary signups to clean up if user abandons registration
 _TEMP_SIGNUPS = []  # list of tuples (idToken, localId)
+
